@@ -14,7 +14,7 @@
         var dialog = document.getElementById("dialog")
         dialog.innerText = "* " + dialogs[0]
         var password = new URLSearchParams(window.location.search).get('password')
-        var music = new Audio('determination.mp3')
+        var music = new Audio('mus_determination.mp3')
         if (password == "everythingthatwillhappen"){
             dialog.addEventListener("click", nextDialog)
             music.play()
