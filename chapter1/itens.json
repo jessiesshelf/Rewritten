@@ -1,0 +1,116 @@
+[
+    {
+        "name": "Example",
+        "desc": "Description placeholder",
+        "alt": true,
+        "0": {
+            "desc": "Alternative Description"
+        },
+        "AT": 10,
+        "DF": 10,
+        "MG": 9,
+        "pages": 9,
+        "VT": 9,
+        "heal": 1,
+        "iframes": 0.9,
+        "dices": "1d20",
+        "effects": "+Everything",
+        "type": "Weapon",
+        "vtype": [
+            "Weapon",
+            "Additional",
+            "Notebook",
+            "Magic",
+            "DFArmour",
+            "VTArmour",
+            "Invincibility",
+            "Consumable"
+        ],
+        "discovered": false
+    },
+    {
+        "name": "Graveto",
+        "desc": "Um graveto com formato vers\u00e1til. Com as qualidades de todos os gravetos combinados, ele \u00e9 capaz de utilizar das habilidades de todos eles. \n * Pode atacar com AT ou MG. \n * Pode executar uma outra a\u00e7\u00e3o ap\u00f3s defender. (Cd. 2 Turno) \n * Pode dividir o *Mercyrate* de uma a\u00e7\u00e3o em diferentes oponentes. \n * Ganhe 3 de TP ao AGIR em lutas.",
+        "alt": true,
+        "discovered": true,
+        "AT": 2,
+        "MG": 1,
+        "iframes": 0.5,
+        "dices": "1d6",
+        "vtype": [
+            "Weapon",
+            "Magic",
+            "Invincibility"
+        ],
+        "type": "Weapon"
+    },
+    {
+        "name": "Curativo",
+        "desc": "Um curativo levemente usado, ele ainda \u00e9 capaz de ficar colado. Quem us\u00e1-lo o dano n\u00e3o poder\u00e1 passar a VT na primeira rodada.",
+        "alt": false,
+        "discovered": true,
+        "VT": 1,
+        "vtype": [
+            "VTArmour"
+        ],
+        "type": "Acce"
+    },
+    {
+        "name": "Luvas Caseiras",
+        "desc": "S\u00e3o feitas artesanalmente, apesar de seus remendos levemente robustos ela parece em bom estado e capaz de garantir prote\u00e7\u00e3o. \n * Enquanto equipada, metade dos seus pontos de luta valem para todas as per\u00edcias de combate.",
+        "alt": true,
+        "discovered": true,
+        "dices": "1d6",
+        "effects": "+H\u00e1bil",
+        "vtype": [
+            "Additional"
+        ],
+        "type": "Weapon"
+    },
+    {
+        "name": "Bandana Resiliente",
+        "desc": "Uma faixa, de cor laranja avermelhado, que pode ser usada como bandana. Ela \u00e9 longa e seu material parece resistente.",
+        "alt": true,
+        "discovered": true,
+        "DF": 2,
+        "vtype": [
+            "DFArmour"
+        ],
+        "type": "Armour"
+    },
+    {
+        "name": "Arma de Brinquedo",
+        "desc": "Em primeira inst\u00e2ncia parece uma arma real, por\u00e9m ap\u00f3s olhar de perto e segurar, garante-se ser um brinquedo. Esse modelo de alguma forma tem um tambor que entra quase qualquer coisa como muni\u00e7\u00e3o. \n * Ao usar a arma em quaisquer a\u00e7\u00f5es garanta em seu pr\u00f3ximo turno um brilho dourado. (Cd. 1 Turnos)",
+        "alt": true,
+        "discovered": true,
+        "AT": 2,
+        "dices": "1d4",
+        "effects": "+Brilho Dourado",
+        "vtype": [
+            "Weapon"
+        ],
+        "type": "Weapon"
+    },
+    {
+        "name": "Trevo d'Quatro Folhas",
+        "desc": "Um raro trevo, que diferente dos demais parece ter folhas mas sulentas com folhas menores de cor verde \u00e1gua. Voc\u00ea n\u00e3o faz ideia da origem desse trevo, mas soa mais raro que o convencional.",
+        "alt": true,
+        "discovered": true,
+        "effects": "+Sorte",
+        "vtype": [
+            "DFArmour"
+        ],
+        "type": "Acce"
+    },
+    {
+        "name": "Panela Leal",
+        "desc": "* Essa panela parece ter sido usada moderadamente, ainda pode servir alguns pratos. \n * Quando estiver DEFENDENDO pode dar 2 de VT a qualquer aliado, por\u00e9m somente por aquela rodada",
+        "alt": true,
+        "discovered": true,
+        "dices": "1d4",
+        "vtype": [
+            "Weapon"
+        ],
+        "type": "Weapon"
+    }
+]
