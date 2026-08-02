@@ -56,4 +56,4 @@ async def on_ready():
     print(f"Bot started!")
     await bot.tree.sync(guild=guild)
 
-bot.run('MTUzMjg3NDU1MTcwNzQzOTEzNQ.GyipCg.9KbN66mlDnlVouRxoz5E0Vwuxh6wDrV11eo1-4')
+bot.run('token')
