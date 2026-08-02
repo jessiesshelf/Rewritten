@@ -18,9 +18,10 @@
         if (password == "everythingthatwillhappen"){
             dialog.addEventListener("click", nextDialog)
             music.play()
-            music.loop = true
-            
-        } else if (password == "") {
+            music.loop = true   
+        } else if (password == "...")
+            console.log("test")  
+        } else {
             window.location.href="goodtry.html"
         }
 
