@@ -14,16 +14,21 @@
         var dialog = document.getElementById("dialog")
         dialog.innerText = "* " + dialogs[0]
         var password = new URLSearchParams(window.location.search).get('password')
+        var music = new Audio('determination.mp3')
         if (password == "everythingthatwillhappen"){
             dialog.addEventListener("click", nextDialog)
-            music = new Audio('determination.mp3')
             music.play()
             music.loop = true
+            
         } else if (password == "") {
             dialog.addEventListener("click", window.location.href="goodtry.html")
         }
 
         function nextDialog(){
+            if (music.paused || music.ended || music.currentTime <= 0 ){
+                music.play()
+            }
+
             if (dialogindex + 1 < dialogs.length){
                 index = 0
                 dialogindex++
