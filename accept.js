@@ -21,7 +21,7 @@
             music.loop = true
             
         } else if (password == "") {
-            dialog.addEventListener("click", window.location.href="goodtry.html")
+            window.location.href="goodtry.html"
         }
 
         function nextDialog(){
