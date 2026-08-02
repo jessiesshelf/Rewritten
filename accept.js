@@ -1,5 +1,14 @@
 
-        var dialogs = ["You know.", "You know...the consequences.","Even so...","Could you accept it?","From now on...","Everything that will happen."]
+        var dialogs = ["You know.", 
+            "You know...the consequences.",
+            "Even so...",
+            "Could you do me a favor?",
+            "Could you...",
+            "Take care of them?",
+            "Could you accept it?",
+            "From now on...",
+            "Everything that will happen."
+        ]
         var dialogindex = 0;
         var index = 0
         var dialog = document.getElementById("dialog")
@@ -29,6 +38,13 @@
             if (index < dialogs[dialogindex].length){
                 dialog.innerText += dialogs[dialogindex].charAt(index)
                 index++
-                setTimeout(typing,50)
+
+                _time = 50
+                
+                if (dialog.innerText[index-1] == "."){
+                    _time = 100
+                }
+                
+                setTimeout(typing,_time)
             }
         }
